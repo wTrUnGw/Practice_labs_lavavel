@@ -1,3 +1,4 @@
+/* The class `member` in PHP represents a member with properties for full name, email, and member ID. */
 <?php
 require_once("hotro.php");
 

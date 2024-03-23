@@ -1,3 +1,5 @@
+/* This PHP code snippet is displaying a list of products fetched from a database. Here's a breakdown
+of what each part of the code does: */
 <?php
 require_once('entities/product.class.php');
 ?>

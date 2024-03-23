@@ -1,3 +1,5 @@
+/* The class "character" in PHP defines properties for a character's full name and country code, with
+methods to retrieve these values. */
 <?php
 class character
 {

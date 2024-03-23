@@ -1,3 +1,7 @@
+// This SQL script is setting some initial configurations for the SQL session, creating four tables
+// (`category`, `orderdetail`, `orderproduct`, `product`) with their respective columns and data types,
+// inserting data into the `product` table, defining primary keys for each table, and setting
+// auto-increment values for the primary key columns.
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
 START TRANSACTION;

@@ -1,3 +1,5 @@
+/* The provided code is an HTML document that includes PHP code snippets. Here's a breakdown of what
+the code is doing: */
 <!DOCTYPE html>
 <html>
 
@@ -15,9 +17,9 @@
         <div class="row">
             <?php
             require_once("thanhvien.php");
-            // create new user info
+           
             $sv = new member("Nguyen Van A", "email1@gmail.com");
-            //output user info
+          
             echo "<h2>-- Member information --</h2>";
             echo "Code: " . $sv->get_id() . "<br/>";
             echo "Fullname: " . $sv->get_fullname() . "<br/>";
@@ -37,7 +39,8 @@
 
 
         <?php
-        //more opp php
+        // TODO: Implement staff class functionality
+
         include("staff.php");
         $nhanvat = new staff("Nguyen Van A", 5678, "Ceo");
         echo "<h2>--- Add: Object Oriented PHP --</h2>";

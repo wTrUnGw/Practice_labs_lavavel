@@ -1,3 +1,5 @@
+/* The `Db` class in PHP establishes a database connection, executes queries, and fetches results into
+an array. */
 <?php
 class Db
 {
@@ -40,7 +42,8 @@ class Db
         $rows = array();
         $result = $this->query_execute($queryString);
         if ($result == false) return false;
-        // while loop is used to output the data array to each element
+        // TODO: Implement fetching data into an array
+
         while ($item = $result->fetch_assoc()) {
             $rows[] = $item;
         }

@@ -1,3 +1,4 @@
+/* The code you provided is an HTML document structure. Let me break it down for you: */
 <!DOCTYPE html>
 <html>
 
@@ -16,5 +17,6 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="header">
+                    <!-- TODO: Add content to the header -->
                     <h2>Project training - Build a sales website</h2>
                 </div>
